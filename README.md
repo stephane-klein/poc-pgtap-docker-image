@@ -39,3 +39,13 @@ All tests successful.
 Files=1, Tests=2,  0 wallclock secs ( 0.01 usr  0.00 sys +  0.01 cusr  0.00 csys =  0.02 CPU)
 Result: PASS
 ```
+
+You can also run a specific test:
+
+```sh
+$ ./scripts/tests.sh sqls/tests/test1.sql
+/sqls/tests/test1.sql .. ok
+All tests successful.
+Files=1, Tests=2,  0 wallclock secs ( 0.01 usr  0.00 sys +  0.01 cusr  0.00 csys =  0.02 CPU)
+Result: PASS
+```
