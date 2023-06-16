@@ -7,12 +7,11 @@ DROP SCHEMA IF EXISTS main CASCADE;
 
 \echo "Database cleaned"
 
-CREATE SCHEMA IF NOT EXISTS utils;;
+CREATE SCHEMA IF NOT EXISTS utils;
 
-ALTER ROLE current_user SET search_path TO '';
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp" WITH SCHEMA utils;
 
-\echo "'main'schema creating..."
+\echo "'main' schema creating..."
 CREATE SCHEMA IF NOT EXISTS main;
 
 CREATE TABLE main.contacts (
