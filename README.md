@@ -3,7 +3,7 @@
 In this skeleton, two PostgreSQL databases are defined in `docker-compose.yml`:
 
 - the first, named `postgres`, is the "working" database, used by developer to develop its application
-- the second, named `postgres-test`, is the database used to run unit tests, via [pgTAP](https://pgtap.org/)
+- the second, named `postgres-test`, is the database used to run unit tests, via [pgTAP](https://pgtap.org/) (version `1.2.0`)
 
 Why two separate databases? For two reasons:
 
