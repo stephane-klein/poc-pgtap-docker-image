@@ -18,6 +18,7 @@ services:
       start_period: 30s
 
   postgres-test:
+    image: stephaneklein/postgres-pgtap:15
     build:
       context: .
       dockerfile: Dockerfile.postgres-test
